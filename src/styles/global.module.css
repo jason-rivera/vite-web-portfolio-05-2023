@@ -1,0 +1,43 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.topBanner {
+  height: 100vh;
+  width: 100%;
+  background: rgb(0, 247, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topBannerContent {
+  display: flex;
+}
+
+.aboutSection {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutContent {
+  text-align: center;
+  width: 50%;
+}
+
+.projectsSection {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  height: 140px;
+  background: black;
+  color: white;
+}
