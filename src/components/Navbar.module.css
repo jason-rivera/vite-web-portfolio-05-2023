@@ -2,11 +2,12 @@
   position: fixed;
   top: 0;
   right: 0;
-  background: green;
 }
 
 .navContent {
   display: flex;
+  color: white;
   gap: 30px;
   padding: 30px;
+  font-weight: bold;
 }
