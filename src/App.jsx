@@ -1,40 +1,14 @@
 import styles from './styles/global.module.css';
 import Navbar from './components/Navbar';
+import HeroSection from './components/HeroSection';
+import ProjectCard from './components/ProjectCard';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <>
       <Navbar />
-      <div className={styles.topBanner}>
-        <div className={styles.topBannerContent}>
-          <div>
-            <div className={styles.header}>
-              JASON <b>RIVERA</b>
-            </div>
-            <div className={styles.subheader}>Web Developer</div>
-          </div>
-          <div className={styles.heroIconSection}>
-            <div className={styles.heroIconContainer}>
-              <img
-                className={styles.heroIcon}
-                src='https://www.svgrepo.com/show/512317/github-142.svg'
-              />
-            </div>
-            <div className={styles.heroIconContainer}>
-              <img
-                className={styles.heroIcon}
-                src='https://www.svgrepo.com/show/506517/linkedin.svg'
-              />
-            </div>
-            <div className={styles.heroIconContainer}>
-              <img
-                className={styles.heroIcon}
-                src='https://www.svgrepo.com/show/511917/email-1572.svg'
-              />
-            </div>
-          </div>
-        </div>
-      </div>
+      <HeroSection />
       <div className={styles.aboutSection}>
         <div className={styles.aboutContent}>
           <div className={styles.sectionTitle}>ABOUT</div>
@@ -58,11 +32,16 @@ function App() {
       </div>
       <div className={styles.projectsSection}>
         <div className={styles.sectionTitle}>Projects section</div>
+        <div className={styles.projectsSectionContent}>
+          <ProjectCard height='200' bgColor='red' />
+          <ProjectCard height='300' bgColor='blue' />
+          <ProjectCard height='250' bgColor='green' />
+          <ProjectCard height='350' bgColor='grey' />
+          <ProjectCard height='300' bgColor='pink' />
+        </div>
       </div>
-      <div className={styles.footer}>
-        <div>©2023 Jason Rivera · MIT License</div>
-        <div>GIT / LINKEDIN / EMAIL</div>
-      </div>
+
+      <Footer />
     </>
   );
 }

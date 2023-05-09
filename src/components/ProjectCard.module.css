@@ -1,0 +1,18 @@
+.cardContainer {
+  column-count: 3;
+  column-gap: 0;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  break-inside: avoid-column; /* ensure cards don't break across columns */
+  margin-bottom: 10px; /* add margin between cards if desired */
+}
+
+.hello {
+  text-align: center;
+  background: rgb(252, 204, 204);
+  color: white;
+  width: 300px;
+}

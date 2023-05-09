@@ -11,90 +11,11 @@ body {
   padding: 0;
 }
 
-.topBanner {
-  height: 100vh;
-  width: 100%;
-  background: linear-gradient(to bottom right, #1851f1, #22e3a9);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.topBannerContent {
-  display: flex;
-  justify-content: center;
-  gap: 100px;
-  color: white;
-  width: 80%;
-}
-
-.header {
-  font-size: 3rem;
-}
-
-.subheader {
-  font-size: 1.25rem;
-}
-
-.heroIconSection {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
-
-.heroIconContainer {
-  border: 2px solid white;
-  border-radius: 100%;
-  width: 60px;
-  height: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 300ms all;
-}
-
-.heroIconContainer:hover {
-  background: rgba(255, 255, 255, 0.5);
-  color: #1851f1;
-}
-
-.heroIcon {
-  height: 2rem;
-  width: 2rem;
-}
-
 .sectionTitle {
   font-size: 1.25rem;
   text-align: center;
   font-weight: bold;
-  text-decoration: underline;
-  text-decoration-color: #1851f1;
-  text-underline-offset: -10px;
-  text-decoration-thickness: 20px;
 }
-
-.sectionTitle::before {
-  content: '';
-  display: block;
-  width: calc(100% + 8px);
-  height: 8px;
-  position: absolute;
-  z-index: -1;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 1px;
-  background: #1fe4a9;
-}
-
-/* .sectionTitle:after {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 20px;
-  background: red;
-  top: 0px;
-} */
 
 .aboutSection {
   display: flex;
@@ -136,15 +57,14 @@ body {
 
 .projectsSection {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin: 1rem 0;
 }
 
-.footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 140px;
-  background: black;
-  color: white;
+.projectsSectionContent {
+  width: 90%;
+  column-count: 3;
+  column-gap: 0;
 }
