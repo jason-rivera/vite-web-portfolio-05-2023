@@ -8,3 +8,8 @@ body {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
+
+.allContainer {
+  position: relative;
+  transition: all 0.3s ease;
+}

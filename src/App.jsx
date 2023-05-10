@@ -16,10 +16,12 @@ function App() {
   return (
     <>
       <Navbar />
-      <HeroSection />
-      <About />
-      <Projects />
-      <Footer />
+      <div id='all-container' className={styles.allContainer}>
+        <HeroSection />
+        <About />
+        <Projects />
+        <Footer />
+      </div>
     </>
   );
 }

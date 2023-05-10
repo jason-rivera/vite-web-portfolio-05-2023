@@ -2,6 +2,7 @@ import styles from './HeroSection.module.css';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
+import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 
 const HeroSection = () => {
   return (
@@ -42,7 +43,7 @@ const HeroSection = () => {
         </div>
       </div>
       <a href='#about' className={`${styles.arrow} ${styles.bounce}`}>
-        ⬇
+        <ArrowDownwardIcon fontSize='large' />
       </a>
     </div>
   );

@@ -19,13 +19,13 @@
   text-decoration: none;
 }
 
-.mobileIcons {
+.hamburgerMenu {
   display: none;
   padding: 30px;
 }
 
 @media screen and (max-width: 1024px) {
-  .mobileIcons {
+  .hamburgerMenu {
     display: flex;
   }
 
