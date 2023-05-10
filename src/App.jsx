@@ -6,6 +6,13 @@ import About from './components/About';
 import Projects from './components/Projects';
 
 function App() {
+  window.addEventListener('scroll', () => {
+    const navbar = document.getElementById('navbar');
+
+    navbar.style.backgroundColor =
+      window.scrollY > window.innerHeight - 80 ? '#000000' : 'transparent';
+  });
+
   return (
     <>
       <Navbar />

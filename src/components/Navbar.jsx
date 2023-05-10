@@ -3,7 +3,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 const Navbar = () => {
   return (
-    <div className={styles.navContainer}>
+    <div id='navbar' className={styles.navContainer}>
       <div>
         <div className={styles.navContent}>
           <a href='#home'>Home</a>
