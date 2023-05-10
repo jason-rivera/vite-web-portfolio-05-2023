@@ -31,12 +31,21 @@ function App() {
                 I have a bunch of past projects you can check out below. If you
                 want to get in touch, feel free to shoot me a message on{' '}
                 <a
+                  className={styles.aboutLinks}
                   href='https://www.linkedin.com/in/rivera-jason/'
                   target='_blank'
+                  rel='noreferrer'
                 >
                   LinkedIn
                 </a>{' '}
-                or just <a href='mailto:jp_rivera_@hotmail.com'>email me</a>.
+                or just{' '}
+                <a
+                  className={styles.aboutLinks}
+                  href='mailto:jp_rivera_@hotmail.com'
+                >
+                  email me
+                </a>
+                .
               </p>
             </div>
           </div>

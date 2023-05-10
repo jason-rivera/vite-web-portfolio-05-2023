@@ -39,6 +39,13 @@ body {
   gap: 50px;
 }
 
+.aboutLinks {
+  color: #1851f1;
+  font-weight: bold;
+  text-decoration: none;
+  color: #20e4a9;
+}
+
 .profilePictureContainer {
   display: flex;
   justify-content: center;

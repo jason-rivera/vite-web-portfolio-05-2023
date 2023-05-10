@@ -11,3 +11,18 @@
   padding: 30px;
   font-weight: bold;
 }
+
+.mobileIcons {
+  display: none;
+  padding: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .mobileIcons {
+    display: flex;
+  }
+
+  .navContent {
+    display: none;
+  }
+}

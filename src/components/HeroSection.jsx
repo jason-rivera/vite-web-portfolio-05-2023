@@ -1,4 +1,7 @@
 import styles from './HeroSection.module.css';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import EmailIcon from '@mui/icons-material/Email';
 
 const HeroSection = () => {
   return (
@@ -9,29 +12,33 @@ const HeroSection = () => {
             JASON <b>RIVERA</b>
           </div>
           <div className={styles.subheader}>
-            Under Construction
+            Fullstack Developer
             {/* Web Developer */}
           </div>
         </div>
         <div className={styles.heroIconSection}>
-          <div className={styles.heroIconContainer}>
-            <img
-              className={styles.heroIcon}
-              src='https://www.svgrepo.com/show/512317/github-142.svg'
-            />
-          </div>
-          <div className={styles.heroIconContainer}>
-            <img
-              className={styles.heroIcon}
-              src='https://www.svgrepo.com/show/506517/linkedin.svg'
-            />
-          </div>
-          <div className={styles.heroIconContainer}>
-            <img
-              className={styles.heroIcon}
-              src='https://www.svgrepo.com/show/511917/email-1572.svg'
-            />
-          </div>
+          <a
+            className={styles.heroIconContainer}
+            href='https://github.com/jason-rivera'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <GitHubIcon />
+          </a>
+          <a
+            className={styles.heroIconContainer}
+            href='https://www.linkedin.com/in/rivera-jason/'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <LinkedInIcon />
+          </a>
+          <a
+            className={styles.heroIconContainer}
+            href='mailto:jp_rivera_+web@hotmail.com'
+          >
+            <EmailIcon />
+          </a>
         </div>
       </div>
     </div>

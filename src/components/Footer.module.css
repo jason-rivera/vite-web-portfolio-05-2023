@@ -7,3 +7,28 @@
   background: black;
   color: white;
 }
+
+.footer .icons {
+  display: flex;
+  gap: 15px;
+}
+
+.footer .icons a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer .mitText {
+  color: #20e4a9;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 0px;
+    height: 80px;
+  }
+}
