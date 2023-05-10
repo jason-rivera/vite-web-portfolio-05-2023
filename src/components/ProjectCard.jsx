@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 
 const ProjectCard = (props) => {
   return (
-    <div className={styles.card}>
+    <div className={styles.singleCardContainer}>
       <div
-        className={styles.hello}
+        className={styles.card}
         style={{ height: props.height + 'px', backgroundColor: props.bgColor }}
       >
         Image goes here

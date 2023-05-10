@@ -1,13 +1,13 @@
-.card {
+.singleCardContainer {
   display: flex;
   justify-content: center;
   break-inside: avoid-column; /* ensure cards don't break across columns */
-  margin-bottom: 10px; /* add margin between cards if desired */
 }
 
-.hello {
+.card {
   text-align: center;
   background: rgb(252, 204, 204);
   color: white;
-  width: 300px;
+  width: 100%;
+  margin: 10px;
 }
