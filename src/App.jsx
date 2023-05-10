@@ -44,7 +44,7 @@ function App() {
       </div>
       {/** Projects Section */}
       <div className={styles.projectsSection}>
-        <div className={styles.sectionTitle}>Projects section</div>
+        <div className={styles.sectionTitle}>PROJECTS</div>
         <div className={styles.projectsSectionContent}>
           <ProjectCard height='200' bgColor='red' />
           <ProjectCard height='300' bgColor='blue' />
