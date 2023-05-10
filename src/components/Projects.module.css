@@ -1,0 +1,33 @@
+.projectsTitle {
+  font-size: 1.25rem;
+  text-align: center;
+  font-weight: bold;
+  margin: 1.2rem 0;
+}
+
+.projectsSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectsSectionContent {
+  width: 90%;
+  column-count: 3;
+  column-gap: 0;
+  padding: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .projectsSectionContent {
+    column-count: 2;
+    row-gap: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projectsSectionContent {
+    column-count: 1;
+  }
+}
