@@ -5,7 +5,7 @@ import EmailIcon from '@mui/icons-material/Email';
 
 const HeroSection = () => {
   return (
-    <div className={styles.topBanner}>
+    <div id='home' className={styles.topBanner}>
       <div className={styles.topBannerContent}>
         <div>
           <div className={styles.header}>
@@ -41,6 +41,9 @@ const HeroSection = () => {
           </a>
         </div>
       </div>
+      <a href='#about' className={`${styles.arrow} ${styles.bounce}`}>
+        ⬇
+      </a>
     </div>
   );
 };

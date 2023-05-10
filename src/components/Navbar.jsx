@@ -6,9 +6,9 @@ const Navbar = () => {
     <div className={styles.navContainer}>
       <div>
         <div className={styles.navContent}>
-          <div>Home</div>
-          <div>About</div>
-          <div>Projects</div>
+          <a href='#home'>Home</a>
+          <a href='#about'>About</a>
+          <a href='#projects'>Projects</a>
         </div>
         <div className={styles.mobileIcons}>
           <MenuIcon style={{ color: 'white' }} fontSize='large' />

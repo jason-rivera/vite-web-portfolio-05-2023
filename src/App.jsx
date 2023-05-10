@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <HeroSection />
       {/** About Section */}
-      <div className={styles.aboutSection}>
+      <div id='about' className={styles.aboutSection}>
         <div className={styles.aboutContent}>
           <div className={styles.sectionTitle}>ABOUT</div>
           <div className={styles.aboutColumns}>
@@ -52,7 +52,7 @@ function App() {
         </div>
       </div>
       {/** Projects Section */}
-      <div className={styles.projectsSection}>
+      <div id='projects' className={styles.projectsSection}>
         <div className={styles.sectionTitle}>PROJECTS</div>
         <div className={styles.projectsSectionContent}>
           <ProjectCard height='200' bgColor='red' />
