@@ -2,6 +2,18 @@ import ProjectCard from './ProjectCard';
 import styles from './Projects.module.css';
 
 const Projects = () => {
+  const astroIcon =
+    'https://astro-build.gallerycdn.vsassets.io/extensions/astro-build/astro-vscode/1.0.4/1683133116776/Microsoft.VisualStudio.Services.Icons.Default';
+  const javaScriptIcon =
+    'https://cdn-icons-png.flaticon.com/512/5968/5968292.png';
+  const directusIcon =
+    'https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/764d7f73-1254-41ad-b31b-f988f0a39b5d.png';
+  const reactIcon =
+    'https://styles.redditmedia.com/t5_2su6s/styles/communityIcon_4g1uo0kd87c61.png';
+  const nodeIcon =
+    'https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png';
+  const vueIcon =
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png';
   return (
     <div id='projects' className={styles.projectsSection}>
       <div className={styles.projectsTitle}>PROJECTS</div>
@@ -13,11 +25,7 @@ const Projects = () => {
           btnText='View it live'
           btnLink='https://black-beach-023542a10.2.azurestaticapps.net/en/'
           image='https://newglentel.directus.app/assets/1d6d16ef-f001-4a91-93a4-dc0386676388'
-          techIcons={[
-            'https://astro-build.gallerycdn.vsassets.io/extensions/astro-build/astro-vscode/1.0.4/1683133116776/Microsoft.VisualStudio.Services.Icons.Default',
-            'https://cdn-icons-png.flaticon.com/512/5968/5968292.png',
-            'https://private-user-images.githubusercontent.com/58869791/237780179-9daa351e-84a9-40eb-8a7c-bfc68ad7af7c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjgzODMxMDI3LCJuYmYiOjE2ODM4MzA3MjcsInBhdGgiOiIvNTg4Njk3OTEvMjM3NzgwMTc5LTlkYWEzNTFlLTg0YTktNDBlYi04YTdjLWJmYzY4YWQ3YWY3Yy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwNTExJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDUxMVQxODQ1MjdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iZDhmNWNmNWQ1MTkzZTNiMDE0ZDk5ZmEzNTNhZGUyZDA1YzdmNmIxMzAzYzk5NjdkMzgyNWU2ZTNlOTc5OTgyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.DIPLX5-a0L8BGavpIt85vZXlx0kH7naqJw8skPbaEEs',
-          ]}
+          techIcons={[astroIcon, javaScriptIcon, directusIcon]}
         />
         <ProjectCard
           title='Twitter Clone'
@@ -26,23 +34,16 @@ const Projects = () => {
           btnText='View the source'
           btnLink='https://github.com/jason-rivera/insta-clone-fe'
           image='https://cdn.dribbble.com/users/1578582/screenshots/15847097/media/95f9cdd3c745f636860e38f3dd4d1a6f.png'
-          techIcons={[
-            'https://styles.redditmedia.com/t5_2su6s/styles/communityIcon_4g1uo0kd87c61.png',
-            'https://cdn-icons-png.flaticon.com/512/5968/5968292.png',
-            'https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png',
-          ]}
+          techIcons={[reactIcon, javaScriptIcon, nodeIcon]}
         />
         <ProjectCard
           title='Hacker Detector'
           subtitle='05/2021 - 05/2022'
-          description='During my co-op at Secure Hive, I worked on the Hacker Detector project which is a web application that detects hackers and their location using the IP address. I was responsible for the front-end development of the application using Vue.'
-          btnText='View It Live'
-          btnLink='https://www.jasonrivera.xyz'
-          image='https://private-user-images.githubusercontent.com/58869791/237798121-ed7f4881-ae34-476b-8ecf-fa5c62a26e68.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjgzODM1MTE4LCJuYmYiOjE2ODM4MzQ4MTgsInBhdGgiOiIvNTg4Njk3OTEvMjM3Nzk4MTIxLWVkN2Y0ODgxLWFlMzQtNDc2Yi04ZWNmLWZhNWM2MmEyNmU2OC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwNTExJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDUxMVQxOTUzMzhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wMzk3ODg5NmUyYjU5MDJiNjU4ZDNiYTA2NWMzNTJhYTJkMDNiYmM2MmFjMzc3MTFlZmQ4ZDU3Yjc1N2NkMGJiJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.DraRlYvzEFsthrBgqXvIJyKs254HAxi5KS8bp8Ub6x4'
-          techIcons={[
-            'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png',
-            'https://cdn-icons-png.flaticon.com/512/5968/5968292.png',
-          ]}
+          description='During my co-op at Secure Hive, I worked on the Hacker Detector project which is a web application that detects hackers and their IP addresses. I was responsible for the front-end development of the web application using Vue and JavaScript. I also created an admin panel that utilizes RESTful API to manage data in the database.'
+          btnText='View it live'
+          btnLink='https://hackerdetector.com/'
+          image='src\assets\hacker-detector-image.png'
+          techIcons={[vueIcon, javaScriptIcon]}
         />
       </div>
     </div>
