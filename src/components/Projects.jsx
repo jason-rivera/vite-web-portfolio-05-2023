@@ -1,5 +1,6 @@
 import ProjectCard from './ProjectCard';
 import styles from './Projects.module.css';
+import img1 from '../assets/hacker-detector-image.png';
 
 const Projects = () => {
   const astroIcon =
@@ -42,7 +43,7 @@ const Projects = () => {
           description='During my co-op at Secure Hive, I worked on the Hacker Detector project which is a web application that detects hackers and their IP addresses. I was responsible for the front-end development of the web application using Vue and JavaScript. I also created an admin panel that utilizes RESTful API to manage data in the database.'
           btnText='View it live'
           btnLink='https://hackerdetector.com/'
-          image='src\assets\hacker-detector-image.png'
+          image={img1}
           techIcons={[vueIcon, javaScriptIcon]}
         />
       </div>
