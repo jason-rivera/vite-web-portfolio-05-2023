@@ -16,10 +16,8 @@ const Projects = () => {
     'https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png';
   const vueIcon =
     'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png';
-  const htmlIcon =
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png';
-  const cssIcon =
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png';
+  const htmlIcon = 'https://semibran.github.io/assets/icon-html.svg';
+  const cssIcon = 'https://semibran.github.io/assets/icon-css.svg';
 
   return (
     <div id='projects' className={styles.projectsSection}>
