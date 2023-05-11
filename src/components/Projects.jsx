@@ -16,6 +16,10 @@ const Projects = () => {
     'https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png';
   const vueIcon =
     'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png';
+  const htmlIcon =
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png';
+  const cssIcon =
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png';
 
   return (
     <div id='projects' className={styles.projectsSection}>
@@ -34,7 +38,7 @@ const Projects = () => {
           title='Twitter Clone'
           subtitle='09/2022 - 12/2022'
           description='Developed a functional and responsive Twitter Clone using the MERN stack with key features such as user authentication, profiles, tweets, real-time updates, and integrating JWT tokens and RESTful API for secure communication.'
-          btnText='View the source'
+          btnText='View the source code'
           btnLink='https://github.com/jason-rivera/insta-clone-fe'
           image='https://cdn.dribbble.com/users/1578582/screenshots/15847097/media/95f9cdd3c745f636860e38f3dd4d1a6f.png'
           techIcons={[reactIcon, javaScriptIcon, nodeIcon]}
@@ -46,7 +50,7 @@ const Projects = () => {
           btnText='View it live'
           btnLink='https://hackerdetector.com/'
           image={hackerDetectorImage}
-          techIcons={[vueIcon, javaScriptIcon]}
+          techIcons={[vueIcon, javaScriptIcon, htmlIcon, cssIcon]}
         />
       </div>
     </div>
