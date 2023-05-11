@@ -20,6 +20,13 @@
   gap: 50px;
 }
 
+.aboutColumns a {
+  transition: 300ms all;
+}
+.aboutColumns a:hover {
+  color: rgb(27, 211, 156);
+}
+
 .aboutLinks {
   color: #1851f1;
   font-weight: bold;

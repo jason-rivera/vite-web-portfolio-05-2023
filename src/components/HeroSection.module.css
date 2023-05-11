@@ -24,6 +24,7 @@ a {
 .header {
   font-size: 3.5rem;
   line-height: 1;
+  text-transform: uppercase;
 }
 
 .subheader {
@@ -61,11 +62,16 @@ a {
 }
 
 .arrow {
+  transition: 300ms all;
   position: absolute;
   bottom: 20px;
   margin: 0 auto;
   color: white;
   font-size: 2rem;
+}
+
+.arrow:hover {
+  color: black;
 }
 
 @media screen and (max-width: 1024px) {

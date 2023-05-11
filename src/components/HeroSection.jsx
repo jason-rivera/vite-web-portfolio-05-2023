@@ -11,7 +11,7 @@ const HeroSection = () => {
       <div className={styles.topBannerContent}>
         <div>
           <div className={styles.header}>
-            JASON <b>RIVERA</b>
+            Jason <b>Rivera</b>
           </div>
           <div className={styles.subheader}>
             <span>Fullstack Developer</span>

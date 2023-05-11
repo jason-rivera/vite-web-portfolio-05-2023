@@ -44,7 +44,7 @@ const Projects = () => {
         <ProjectCard
           title='Hacker Detector'
           subtitle='05/2021 - 05/2022'
-          description='During my co-op at Secure Hive, I worked on the Hacker Detector project which is a web application that detects hackers and their IP addresses. I was responsible for the front-end development of the web application using Vue and JavaScript. I also created an admin panel that utilizes RESTful API to manage data in the database.'
+          description='During my time at Secure Hive, I worked on the Hacker Detector project which is a web application that detects hackers and their IP addresses. I was responsible for the front-end development of the web application using Vue.js, HTML, CSS and JavaScript. I also created an admin panel that utilizes RESTful API to manage data in the database.'
           btnText='View it live'
           btnLink='https://hackerdetector.com/'
           image={hackerDetectorImage}

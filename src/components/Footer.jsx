@@ -9,7 +9,7 @@ const Footer = () => {
       <div>
         ©2023 Jason Rivera ·{' '}
         <a
-          className={styles.mitText}
+          className={styles.extraText}
           href='https://react.dev/'
           target='_blank'
           rel='noreferrer'
@@ -17,7 +17,7 @@ const Footer = () => {
           ReactJS Powered
         </a>
       </div>
-      <div className={styles.icons}>
+      <div className={styles.icon}>
         <a
           href='https://github.com/jason-rivera'
           target='_blank'

@@ -8,20 +8,29 @@
   color: white;
 }
 
-.footer .icons {
+.footer .icon {
   display: flex;
   gap: 15px;
 }
 
-.footer .icons a {
+.footer .icon a {
+  transition: 300ms all;
   color: white;
   text-decoration: none;
 }
+.footer .icon a:hover {
+  color: #20e4a9;
+}
 
-.footer .mitText {
+.footer .extraText {
   color: #20e4a9;
   text-decoration: none;
   font-weight: bold;
+  transition: 300ms all;
+}
+
+.footer .extraText:hover {
+  color: rgb(27, 211, 156);
 }
 
 @media screen and (max-width: 1024px) {

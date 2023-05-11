@@ -20,8 +20,9 @@
 }
 
 .hamburgerMenu {
+  cursor: pointer;
   display: none;
-  padding: 30px;
+  padding: 20px;
 }
 
 @media screen and (max-width: 1024px) {
