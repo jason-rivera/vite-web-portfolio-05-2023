@@ -8,7 +8,7 @@ const About = () => {
         <div className={styles.aboutColumns}>
           <div className={styles.profilePictureContainer}>
             <div className={styles.profilePicture}>
-              <img src='https://media.licdn.com/dms/image/C4E03AQHHLgrFAcaZcg/profile-displayphoto-shrink_800_800/0/1609387611539?e=1689206400&v=beta&t=BXXlFy-OXEjnNCcV3x9BCPkrM8Wd1-ACkj0jJULAFgI' />
+              {/* <img src='https://media.licdn.com/dms/image/C4E03AQHHLgrFAcaZcg/profile-displayphoto-shrink_800_800/0/1609387611539?e=1689206400&v=beta&t=BXXlFy-OXEjnNCcV3x9BCPkrM8Wd1-ACkj0jJULAFgI' /> */}
             </div>
           </div>
           <div>

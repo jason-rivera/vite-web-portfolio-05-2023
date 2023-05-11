@@ -40,7 +40,7 @@
   margin: 1rem 0;
 }
 
-.profilePicture {
+/* .profilePicture {
   width: 150px;
   height: 150px;
   border-radius: 100%;
@@ -49,6 +49,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
+} */
+
+.profilePicture::after {
+  box-shadow: none;
+  border: 3px solid #fff;
+}
+
+.profilePicture::after {
+  content: '';
+  display: block;
+  background: url('https://media.licdn.com/dms/image/C4E03AQHHLgrFAcaZcg/profile-displayphoto-shrink_800_800/0/1609387611539?e=1689206400&v=beta&t=BXXlFy-OXEjnNCcV3x9BCPkrM8Wd1-ACkj0jJULAFgI');
+  background-size: cover;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #fff, 0 0 0 6px #1fe4a9;
+  z-index: 1;
 }
 
 @media screen and (max-width: 1024px) {
