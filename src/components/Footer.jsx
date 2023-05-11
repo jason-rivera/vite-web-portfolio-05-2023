@@ -10,11 +10,11 @@ const Footer = () => {
         ©2023 Jason Rivera ·{' '}
         <a
           className={styles.mitText}
-          href='https://opensource.org/license/mit/'
+          href='https://react.dev/'
           target='_blank'
           rel='noreferrer'
         >
-          MIT License
+          ReactJS Powered
         </a>
       </div>
       <div className={styles.icons}>

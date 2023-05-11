@@ -1,6 +1,7 @@
 import ProjectCard from './ProjectCard';
 import styles from './Projects.module.css';
-import img1 from '../assets/hacker-detector-image.png';
+import hackerDetectorImage from '../assets/hacker-detector-image.png';
+import SectionTitle from './SectionTitle';
 
 const Projects = () => {
   const astroIcon =
@@ -15,9 +16,10 @@ const Projects = () => {
     'https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png';
   const vueIcon =
     'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png';
+
   return (
     <div id='projects' className={styles.projectsSection}>
-      <div className={styles.projectsTitle}>PROJECTS</div>
+      <SectionTitle title='Projects' />
       <div className={styles.projectsSectionContent}>
         <ProjectCard
           title='Glentel Inc.'
@@ -43,7 +45,7 @@ const Projects = () => {
           description='During my co-op at Secure Hive, I worked on the Hacker Detector project which is a web application that detects hackers and their IP addresses. I was responsible for the front-end development of the web application using Vue and JavaScript. I also created an admin panel that utilizes RESTful API to manage data in the database.'
           btnText='View it live'
           btnLink='https://hackerdetector.com/'
-          image={img1}
+          image={hackerDetectorImage}
           techIcons={[vueIcon, javaScriptIcon]}
         />
       </div>

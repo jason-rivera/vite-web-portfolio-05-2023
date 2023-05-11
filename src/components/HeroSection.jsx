@@ -13,7 +13,7 @@ const HeroSection = () => {
             JASON <b>RIVERA</b>
           </div>
           <div className={styles.subheader}>
-            Fullstack Developer - React Powered
+            Fullstack Developer - ReactJS Powered
             {/* Web Developer */}
           </div>
         </div>

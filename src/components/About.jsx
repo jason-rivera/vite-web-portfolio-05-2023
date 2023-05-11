@@ -1,10 +1,11 @@
 import styles from './About.module.css';
+import SectionTitle from './SectionTitle';
 
 const About = () => {
   return (
     <div id='about' className={styles.aboutSection}>
+      <SectionTitle title='About' />
       <div className={styles.aboutContent}>
-        <div className={styles.aboutTitle}>ABOUT</div>
         <div className={styles.aboutColumns}>
           <div className={styles.profilePictureContainer}>
             <div className={styles.profilePicture}>

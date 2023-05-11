@@ -1,14 +1,8 @@
-.aboutTitle {
-  font-size: 1.25rem;
-  text-align: center;
-  font-weight: bold;
-  margin: 1.2rem 0;
-}
-
 .aboutSection {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  margin: 1rem 0;
+  align-items: center;
 }
 
 .aboutContent {
