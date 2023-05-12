@@ -33,7 +33,7 @@
   color: rgb(27, 211, 156);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 900px) {
   .footer {
     flex-direction: column;
     justify-content: space-evenly;

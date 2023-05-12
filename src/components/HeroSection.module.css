@@ -74,7 +74,7 @@ a {
   color: black;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 900px) {
   .topBannerContent {
     flex-direction: column;
   }

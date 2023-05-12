@@ -25,8 +25,7 @@
   padding: 20px;
 }
 
-/** Testing Mobile Nav */
-
+/** Mobile Nav */
 /** if you change the vw value, you must change the vw in Navbar.jsx */
 
 :root {
@@ -53,11 +52,13 @@
   align-items: end;
   width: var(--mobileNavMovingWidth);
   padding-top: 100px;
-  gap: 30px;
+  gap: 3rem;
 }
 
 .mobileNavContent a {
   color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
   padding-right: 30px;
 }
 
@@ -65,9 +66,9 @@
   left: calc(100vw - var(--mobileNavMovingWidth));
   opacity: 1;
 }
-/** END: Testing Mobile Nav */
+/** END: Mobile Nav */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 900px) {
   .hamburgerMenu {
     display: flex;
   }
