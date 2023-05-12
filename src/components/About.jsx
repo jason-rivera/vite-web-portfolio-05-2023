@@ -14,10 +14,11 @@ const About = () => {
           </div>
           <div>
             <p>
-              Hi, I'm Jason. I'm a web developer and UI/UX designer. My primary
-              expertise is in front-end development and design, particularly
-              HTML/CSS/JS and using frameworks like React to build web apps. I
-              also do backend work, tooling, testing, and mobile development.
+              Hi, I'm Jason. I'm a full stack developer and UI/UX designer. My
+              primary expertise is in front-end development and design,
+              particularly HTML/CSS/JS and using frameworks like React to build
+              web apps. I also do backend work by utilizing RESTful API,
+              testing, and mobile development.
             </p>
             <p>
               I have a bunch of past projects you can check out below. If you

@@ -14,7 +14,7 @@ const HeroSection = () => {
             Jason <b>Rivera</b>
           </div>
           <div className={styles.subheader}>
-            <span>Fullstack Developer</span>
+            <span>Full Stack Developer</span>
             <span>
               <AddIcon style={{ paddingLeft: '2px' }} fontSize='small' />
               ReactJS Powered
