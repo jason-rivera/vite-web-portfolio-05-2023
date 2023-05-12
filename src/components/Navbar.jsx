@@ -40,9 +40,15 @@ const Navbar = () => {
       {/** Testing MOBILE NAV */}
       <div className={`${styles.mobileNav} ${isOpen && styles.active}`}>
         <div className={styles.mobileNavContent}>
-          <div>1</div>
-          <div>2</div>
-          <div>3</div>
+          <div>
+            <a href='#home'>Home</a>
+          </div>
+          <div>
+            <a href='#about'>About</a>
+          </div>
+          <div>
+            <a href='#projects'>Projects</a>
+          </div>
         </div>
       </div>
       {/** End Testing */}
