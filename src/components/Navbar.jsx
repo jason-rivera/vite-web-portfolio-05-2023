@@ -8,7 +8,8 @@ const Navbar = () => {
 
   const handleHamburgerClick = () => {
     const root = document.getElementById('all-container');
-    root.style.translate = isOpen ? '0px' : '-250px';
+    //if you change the vw value, you must change the vw in Navbar.module.css
+    root.style.translate = isOpen ? '0px' : '-40vw';
     console.log('ham clicked');
     setIsOpen(!isOpen);
   };

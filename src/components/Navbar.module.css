@@ -26,15 +26,22 @@
 }
 
 /** Testing Mobile Nav */
+
+/** if you change the vw value, you must change the vw in Navbar.jsx */
+
+:root {
+  --mobileNavMovingWidth: 40vw;
+}
+
 .mobileNav {
   position: fixed;
   left: 100vw;
   top: 0;
   background: black;
   height: 100vh;
-  width: 250px;
+  width: var(--mobileNavMovingWidth);
   transition: all 0.3s ease;
-  z-index: 888;
+  z-index: 9998;
   color: white;
   opacity: 0;
 }
@@ -44,7 +51,7 @@
   display: flex;
   flex-direction: column;
   align-items: end;
-  width: 250px;
+  width: var(--mobileNavMovingWidth);
   padding-top: 100px;
   gap: 30px;
 }
@@ -55,7 +62,7 @@
 }
 
 .active {
-  left: calc(100vw - 267px);
+  left: calc(100vw - var(--mobileNavMovingWidth));
   opacity: 1;
 }
 /** END: Testing Mobile Nav */
