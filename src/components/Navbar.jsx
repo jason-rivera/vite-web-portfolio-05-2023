@@ -13,6 +13,24 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const handleNavLinkClick = () => {
+    const root = document.getElementById('all-container');
+    root.style.translate = '0px';
+    setIsOpen(false);
+  };
+
+  // const root = document.getElementById('all-container');
+  // window.addEventListener('click', (e) => {
+  //   if (isOpen) {
+  //     if (!root.contains(e.target)) {
+  //       root.style.translate = '0px';
+  //       setIsOpen(false);
+  //     }
+  //   } else {
+  //     return;
+  //   }
+  // });
+
   useEffect(() => {}, []);
 
   return (
@@ -25,8 +43,11 @@ const Navbar = () => {
             <a href='#projects'>Projects</a>
           </div>
 
-          <div className={styles.hamburgerMenu}>
-            <span onClick={() => handleHamburgerClick()}>
+          <div
+            className={styles.hamburgerMenu}
+            onClick={() => handleHamburgerClick()}
+          >
+            <span id='hamburger'>
               {isOpen ? (
                 <CloseIcon style={{ color: 'white' }} fontSize='large' />
               ) : (
@@ -38,16 +59,25 @@ const Navbar = () => {
       </div>
 
       {/** Testing MOBILE NAV */}
-      <div className={`${styles.mobileNav} ${isOpen && styles.active}`}>
+      <div
+        id='mobileNavBar'
+        className={`${styles.mobileNav} ${isOpen && styles.active}`}
+      >
         <div className={styles.mobileNavContent}>
           <div>
-            <a href='#home'>Home</a>
+            <a href='#home' onClick={() => handleNavLinkClick()}>
+              Home
+            </a>
           </div>
           <div>
-            <a href='#about'>About</a>
+            <a href='#about' onClick={() => handleNavLinkClick()}>
+              About
+            </a>
           </div>
           <div>
-            <a href='#projects'>Projects</a>
+            <a href='#projects' onClick={() => handleNavLinkClick()}>
+              Projects
+            </a>
           </div>
         </div>
       </div>

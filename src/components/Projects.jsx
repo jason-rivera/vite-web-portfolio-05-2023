@@ -1,4 +1,7 @@
-import ProjectCard from './ProjectCard';
+import React from 'react';
+// Lazily loading ProjectCards
+const ProjectCard = React.lazy(() => import('./ProjectCard'));
+
 import styles from './Projects.module.css';
 import hackerDetectorImage from '../assets/hacker-detector-image.png';
 import SectionTitle from './SectionTitle';
@@ -56,7 +59,7 @@ const Projects = () => {
           description='Built a search engine using the Marvel API that allows users to search for their favourite Marvel characters and comics. The search engine is built using React, HTML, CSS and JavaScript.'
           btnText='View the source code'
           btnLink='https://github.com/jason-rivera/marvel-api'
-          image='https://www.thetruecolors.org/wp-content/uploads/2021/02/marvel-logo-header-1.jpg'
+          image='https://wallpapers.com/images/featured/bte9zcsa9pvyzpvk.jpg'
           techIcons={[reactIcon, javaScriptIcon, htmlIcon, cssIcon]}
         />
         <ProjectCard
@@ -65,7 +68,7 @@ const Projects = () => {
           description='Built an Amiibo Finder web application using the Amiibo API that allows users to search for their favourite Amiibo characters. The web application is built using HTML, CSS and JavaScript.'
           btnText='View the source code'
           btnLink='https://github.com/jason-rivera/amiibo-finder'
-          image='https://oyster.ignimgs.com/mediawiki/apis.ign.com/nintendo-figurines/c/c2/Amiibo_logo.jpg'
+          image='https://sm.ign.com/ign_ap/news/f/first-two-waves-of-amiibo-detailed-with-release-da/first-two-waves-of-amiibo-detailed-with-release-da_mk5c.jpg'
           techIcons={[javaScriptIcon, htmlIcon, cssIcon]}
         />
       </div>
