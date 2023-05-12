@@ -50,6 +50,24 @@ const Projects = () => {
           image={hackerDetectorImage}
           techIcons={[vueIcon, javaScriptIcon, htmlIcon, cssIcon]}
         />
+        <ProjectCard
+          title='Marvel Search Engine'
+          subtitle='2021'
+          description='Built a search engine using the Marvel API that allows users to search for their favourite Marvel characters and comics. The search engine is built using React, HTML, CSS and JavaScript.'
+          btnText='View the source code'
+          btnLink='https://github.com/jason-rivera/marvel-api'
+          image='https://www.thetruecolors.org/wp-content/uploads/2021/02/marvel-logo-header-1.jpg'
+          techIcons={[reactIcon, javaScriptIcon, htmlIcon, cssIcon]}
+        />
+        <ProjectCard
+          title='Amiibo Finder'
+          subtitle='2021'
+          description='Built an Amiibo Finder web application using the Amiibo API that allows users to search for their favourite Amiibo characters. The web application is built using HTML, CSS and JavaScript.'
+          btnText='View the source code'
+          btnLink='https://github.com/jason-rivera/amiibo-finder'
+          image='https://oyster.ignimgs.com/mediawiki/apis.ign.com/nintendo-figurines/c/c2/Amiibo_logo.jpg'
+          techIcons={[javaScriptIcon, htmlIcon, cssIcon]}
+        />
       </div>
     </div>
   );
