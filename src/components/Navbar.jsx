@@ -16,25 +16,37 @@ const Navbar = () => {
   useEffect(() => {}, []);
 
   return (
-    <div id='navbar' className={styles.navContainer}>
-      <div>
-        <div className={styles.navContent}>
-          <a href='#home'>Home</a>
-          <a href='#about'>About</a>
-          <a href='#projects'>Projects</a>
-        </div>
+    <>
+      <div id='navbar' className={styles.navContainer}>
+        <div>
+          <div className={styles.navContent}>
+            <a href='#home'>Home</a>
+            <a href='#about'>About</a>
+            <a href='#projects'>Projects</a>
+          </div>
 
-        <div className={styles.hamburgerMenu}>
-          <span onClick={() => handleHamburgerClick()}>
-            {isOpen ? (
-              <CloseIcon style={{ color: 'white' }} fontSize='large' />
-            ) : (
-              <MenuIcon style={{ color: 'white' }} fontSize='large' />
-            )}
-          </span>
+          <div className={styles.hamburgerMenu}>
+            <span onClick={() => handleHamburgerClick()}>
+              {isOpen ? (
+                <CloseIcon style={{ color: 'white' }} fontSize='large' />
+              ) : (
+                <MenuIcon style={{ color: 'white' }} fontSize='large' />
+              )}
+            </span>
+          </div>
         </div>
       </div>
-    </div>
+
+      {/** Testing MOBILE NAV */}
+      <div className={`${styles.mobileNav} ${isOpen && styles.active}`}>
+        <div className={styles.mobileNavContent}>
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+        </div>
+      </div>
+      {/** End Testing */}
+    </>
   );
 };
 

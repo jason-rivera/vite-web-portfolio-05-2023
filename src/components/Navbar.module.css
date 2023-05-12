@@ -25,6 +25,30 @@
   padding: 20px;
 }
 
+/** Testing Mobile Nav */
+.mobileNav {
+  position: fixed;
+  left: 100vw;
+  top: 0;
+  background: black;
+  height: 100vh;
+  width: 250px;
+  transition: all 0.5s ease;
+  z-index: 888;
+  color: white;
+}
+
+.mobileNavContent {
+  position: fixed;
+}
+
+.active {
+  transition: all 0.5s ease;
+  left: auto;
+  right: 0;
+}
+/** END: Testing Mobile Nav */
+
 @media screen and (max-width: 1024px) {
   .hamburgerMenu {
     display: flex;
