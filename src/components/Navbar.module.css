@@ -14,15 +14,23 @@
   font-weight: bold;
 }
 
-.navContent a {
+.navLink {
   color: white;
   text-decoration: none;
+  transition: 300ms all;
 }
 
 .hamburgerMenu {
   cursor: pointer;
   display: none;
   padding: 20px;
+}
+
+.homeLink {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 5px;
+  text-decoration-color: rgba(32, 228, 169, 1);
 }
 
 /** Mobile Nav */
@@ -55,14 +63,15 @@
   gap: 3rem;
 }
 
-.mobileNavContent a {
+.mobileNavLink {
   color: white;
   font-size: 1.3rem;
   font-weight: bold;
   padding-right: 30px;
+  transition: 300ms all;
 }
 
-.active {
+.sideMenuActive {
   left: calc(100vw - var(--mobileNavMovingWidth));
   opacity: 1;
 }

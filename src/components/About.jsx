@@ -3,7 +3,7 @@ import SectionTitle from './SectionTitle';
 
 const About = () => {
   return (
-    <div id='about' className={styles.aboutSection}>
+    <section id='about' className={styles.aboutSection}>
       <SectionTitle title='About' />
       <div className={styles.aboutContent}>
         <div className={styles.aboutColumns}>
@@ -43,7 +43,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

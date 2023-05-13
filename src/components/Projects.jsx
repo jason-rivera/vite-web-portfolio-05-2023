@@ -23,7 +23,7 @@ const Projects = () => {
   const cssIcon = 'https://semibran.github.io/assets/icon-css.svg';
 
   return (
-    <div id='projects' className={styles.projectsSection}>
+    <section id='projects' className={styles.projectsSection}>
       <SectionTitle title='Projects' />
       <div className={styles.projectsSectionContent}>
         <ProjectCard
@@ -72,7 +72,7 @@ const Projects = () => {
           techIcons={[javaScriptIcon, htmlIcon, cssIcon]}
         />
       </div>
-    </div>
+    </section>
   );
 };
 

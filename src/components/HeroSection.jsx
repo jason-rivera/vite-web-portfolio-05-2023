@@ -7,7 +7,7 @@ import AddIcon from '@mui/icons-material/Add';
 
 const HeroSection = () => {
   return (
-    <div id='home' className={styles.topBanner}>
+    <section id='home' className={styles.topBanner}>
       <div className={styles.topBannerContent}>
         <div>
           <div className={styles.header}>
@@ -50,7 +50,7 @@ const HeroSection = () => {
       <a href='#about' className={`${styles.arrow} ${styles.bounce}`}>
         <ArrowDownwardIcon fontSize='large' />
       </a>
-    </div>
+    </section>
   );
 };
 
