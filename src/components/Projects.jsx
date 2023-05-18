@@ -4,6 +4,7 @@ const ProjectCard = React.lazy(() => import('./ProjectCard'));
 
 import styles from './Projects.module.css';
 import hackerDetectorImage from '../assets/hacker-detector-image.png';
+import preggoImage from '../assets/website-preggo-image.png';
 import SectionTitle from './SectionTitle';
 
 const Projects = () => {
@@ -26,6 +27,15 @@ const Projects = () => {
     <section id='projects' className={styles.projectsSection}>
       <SectionTitle title='Projects' />
       <div className={styles.projectsSectionContent}>
+        <ProjectCard
+          title='Preggo'
+          subtitle='05/2023'
+          description='Preggo is a web app that I developed using Svelte. It leverages the ChatGPT API to provide valuable insights on the safety of consuming different food and drink items during pregnancy.'
+          btnText='View it live'
+          btnLink='https://preggo.jasonrivera.xyz'
+          image={preggoImage}
+          techIcons={[astroIcon, javaScriptIcon]}
+        />
         <ProjectCard
           title='Glentel Inc.'
           subtitle='03/2023 - 05/2023'
