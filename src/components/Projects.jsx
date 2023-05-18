@@ -4,7 +4,7 @@ const ProjectCard = React.lazy(() => import('./ProjectCard'));
 
 import styles from './Projects.module.css';
 import hackerDetectorImage from '../assets/hacker-detector-image.png';
-import preggoImage from '../assets/website-preggo-image.png';
+import preggoImage from '../assets/website-preggo-thumbnail.png';
 import SectionTitle from './SectionTitle';
 
 const Projects = () => {
