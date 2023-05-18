@@ -10,7 +10,7 @@ function App() {
     const navbar = document.getElementById('navbar');
 
     navbar.style.backgroundColor =
-      window.scrollY > window.innerHeight - 80 ? '#000000' : 'transparent';
+      window.scrollY > window.innerHeight - 45 ? '#000000' : 'transparent';
   });
 
   return (
