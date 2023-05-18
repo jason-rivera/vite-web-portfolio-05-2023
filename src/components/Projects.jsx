@@ -22,19 +22,23 @@ const Projects = () => {
     'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png';
   const htmlIcon = 'https://semibran.github.io/assets/icon-html.svg';
   const cssIcon = 'https://semibran.github.io/assets/icon-css.svg';
+  const svelteIcon =
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/1200px-Svelte_Logo.svg.png';
+  const chatGPTIcon =
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/120px-ChatGPT_logo.svg.png';
 
   return (
     <section id='projects' className={styles.projectsSection}>
       <SectionTitle title='Projects' />
       <div className={styles.projectsSectionContent}>
         <ProjectCard
-          title='Preggo'
+          title='PreggoGPT'
           subtitle='05/2023'
-          description='Preggo is a web app that I developed using Svelte. It leverages the ChatGPT API to provide valuable insights on the safety of consuming different food and drink items during pregnancy.'
+          description='PreggoGPT is a web app that I developed using Svelte. It leverages the ChatGPT API to provide valuable insights on the safety of consuming different food and drink items during pregnancy.'
           btnText='View it live'
           btnLink='https://preggo.jasonrivera.xyz'
           image={preggoImage}
-          techIcons={[astroIcon, javaScriptIcon]}
+          techIcons={[chatGPTIcon, svelteIcon, javaScriptIcon]}
         />
         <ProjectCard
           title='Glentel Inc.'

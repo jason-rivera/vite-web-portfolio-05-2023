@@ -9,6 +9,10 @@ body {
   overflow-x: hidden;
 }
 
+::selection {
+  background: #00ffb3;
+}
+
 .allContainer {
   transition: all 0.3s ease;
   position: relative;
