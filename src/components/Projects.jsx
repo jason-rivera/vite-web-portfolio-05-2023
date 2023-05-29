@@ -8,26 +8,44 @@ import preggoImage from '../assets/website-preggo-thumbnail-2.png';
 import SectionTitle from './SectionTitle';
 
 const Projects = () => {
-  const astroIcon =
-    'https://astro-build.gallerycdn.vsassets.io/extensions/astro-build/astro-vscode/1.0.4/1683133116776/Microsoft.VisualStudio.Services.Icons.Default';
-  const javaScriptIcon =
-    'https://cdn-icons-png.flaticon.com/512/5968/5968292.png';
-  const directusIcon =
-    'https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/764d7f73-1254-41ad-b31b-f988f0a39b5d.png';
-  const reactIcon =
-    'https://styles.redditmedia.com/t5_2su6s/styles/communityIcon_4g1uo0kd87c61.png';
-  const nodeIcon =
-    'https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png';
-  const vueIcon =
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png';
-  const htmlIcon = 'https://semibran.github.io/assets/icon-html.svg';
-  const cssIcon = 'https://semibran.github.io/assets/icon-css.svg';
-  const svelteIcon =
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/1200px-Svelte_Logo.svg.png';
-  const chatGPTIcon =
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/120px-ChatGPT_logo.svg.png';
-  const awsLambda =
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Amazon_Lambda_architecture_logo.svg/1200px-Amazon_Lambda_architecture_logo.svg.png';
+  const astroIcon = [
+    'Astro',
+    'https://astro-build.gallerycdn.vsassets.io/extensions/astro-build/astro-vscode/1.0.4/1683133116776/Microsoft.VisualStudio.Services.Icons.Default',
+  ];
+  const javaScriptIcon = [
+    'JavaScript',
+    'https://cdn-icons-png.flaticon.com/512/5968/5968292.png',
+  ];
+  const directusIcon = [
+    'Directus CMS',
+    'https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/764d7f73-1254-41ad-b31b-f988f0a39b5d.png',
+  ];
+  const reactIcon = [
+    'React',
+    'https://styles.redditmedia.com/t5_2su6s/styles/communityIcon_4g1uo0kd87c61.png',
+  ];
+  const nodeIcon = [
+    'Node',
+    'https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png',
+  ];
+  const vueIcon = [
+    'Vue',
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png',
+  ];
+  const htmlIcon = ['HTML5', 'https://semibran.github.io/assets/icon-html.svg'];
+  const cssIcon = ['CSS3', 'https://semibran.github.io/assets/icon-css.svg'];
+  const svelteIcon = [
+    'Svelte',
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/1200px-Svelte_Logo.svg.png',
+  ];
+  const chatGPTIcon = [
+    'ChatGPT',
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/120px-ChatGPT_logo.svg.png',
+  ];
+  const awsLambda = [
+    'AWS Lambda',
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Amazon_Lambda_architecture_logo.svg/1200px-Amazon_Lambda_architecture_logo.svg.png',
+  ];
 
   return (
     <section id='projects' className={styles.projectsSection}>

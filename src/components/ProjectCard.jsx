@@ -23,11 +23,14 @@ const ProjectCard = ({
             </div>
             <div className={styles.projectIconsContainer}>
               {techIcons.map((iconLink, index) => (
-                <img
-                  key={index}
-                  src={iconLink}
-                  className={styles.projectIcon}
-                />
+                <div key={index} className={styles.iconContainer}>
+                  <img
+                    src={iconLink[1]}
+                    className={styles.projectIcon}
+                    alt={iconLink[1]}
+                  />
+                  <div className={styles.iconTooltip}>{iconLink[0]}</div>
+                </div>
               ))}
             </div>
           </div>
