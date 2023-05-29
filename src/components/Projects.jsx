@@ -26,6 +26,8 @@ const Projects = () => {
     'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/1200px-Svelte_Logo.svg.png';
   const chatGPTIcon =
     'https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/120px-ChatGPT_logo.svg.png';
+  const awsLambda =
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Amazon_Lambda_architecture_logo.svg/1200px-Amazon_Lambda_architecture_logo.svg.png';
 
   return (
     <section id='projects' className={styles.projectsSection}>
@@ -34,11 +36,11 @@ const Projects = () => {
         <ProjectCard
           title='PreggoGPT'
           subtitle='05/2023'
-          description='PreggoGPT is a web app that I developed using Svelte. It leverages the ChatGPT API to provide valuable insights on the safety of consuming different food and drink items during pregnancy.'
+          description='PreggoGPT is a web app that I developed using Svelte. It leverages the ChatGPT API to provide valuable insights on the safety of consuming different food and drink items during pregnancy. I used AWS Lambda for the backend.'
           btnText='View it live'
           btnLink='https://preggo.jasonrivera.xyz'
           image={preggoImage}
-          techIcons={[chatGPTIcon, svelteIcon, javaScriptIcon]}
+          techIcons={[chatGPTIcon, awsLambda, svelteIcon, javaScriptIcon]}
         />
         <ProjectCard
           title='Glentel Inc.'
