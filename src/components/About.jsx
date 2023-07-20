@@ -17,9 +17,10 @@ const About = () => {
               Hi, I'm Jason. I'm a full stack developer and UI/UX designer with
               2 years of work experience. My primary expertise is in front-end
               development and design, particularly HTML, CSS, and JavaScript and
-              using frameworks like React to build web apps. I also do backend
-              work by utilizing RESTful API as well as testing and mobile
-              development.
+              using frameworks like React and React Native to build web and
+              mobile apps. I also do backend work by utilizing RESTful API,
+              implementing CMS, and using either SQL and NoSQL databases
+              depending on user requirements.
             </p>
             <p>
               I have a bunch of past projects you can check out below. If you

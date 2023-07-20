@@ -60,7 +60,8 @@
 .profilePicture::after {
   content: '';
   display: block;
-  background: url('https://media.licdn.com/dms/image/C4E03AQHHLgrFAcaZcg/profile-displayphoto-shrink_800_800/0/1609387611539?e=1689206400&v=beta&t=BXXlFy-OXEjnNCcV3x9BCPkrM8Wd1-ACkj0jJULAFgI');
+  background: url('https://64.media.tumblr.com/4932c29e2051051964508993ed2cb83a/245a732ae06d4a94-fb/s250x400/f569221835f0a7209420e795ba0aafc55d367655.jpg');
+  /* background: url('https://media.licdn.com/dms/image/C4E03AQHHLgrFAcaZcg/profile-displayphoto-shrink_800_800/0/1609387611539?e=1689206400&v=beta&t=BXXlFy-OXEjnNCcV3x9BCPkrM8Wd1-ACkj0jJULAFgI'); */
   background-size: cover;
   width: 8rem;
   height: 8rem;
