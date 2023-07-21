@@ -58,7 +58,7 @@ const Projects = () => {
           btnText='View it live'
           btnLink='https://preggo.jasonrivera.xyz'
           image={preggoImage}
-          techIcons={[chatGPTIcon, awsLambda, svelteIcon, javaScriptIcon]}
+          techIcons={[chatGPTIcon, awsLambda, svelteIcon]}
         />
         <ProjectCard
           title='Glentel Inc.'
@@ -67,7 +67,7 @@ const Projects = () => {
           btnText='View it live'
           btnLink='https://black-beach-023542a10.2.azurestaticapps.net/en/'
           image='https://newglentel.directus.app/assets/1d6d16ef-f001-4a91-93a4-dc0386676388'
-          techIcons={[astroIcon, javaScriptIcon, directusIcon]}
+          techIcons={[astroIcon, directusIcon]}
         />
         <ProjectCard
           title='Twitter Clone'
@@ -76,7 +76,7 @@ const Projects = () => {
           btnText='View the source code'
           btnLink='https://github.com/jason-rivera/insta-clone-fe'
           image='https://cdn.dribbble.com/users/1578582/screenshots/15847097/media/95f9cdd3c745f636860e38f3dd4d1a6f.png'
-          techIcons={[reactIcon, javaScriptIcon, nodeIcon]}
+          techIcons={[reactIcon, nodeIcon]}
         />
         <ProjectCard
           title='Hacker Detector'
@@ -85,7 +85,7 @@ const Projects = () => {
           btnText='View it live'
           btnLink='https://hackerdetector.com/'
           image={hackerDetectorImage}
-          techIcons={[vueIcon, javaScriptIcon, htmlIcon, cssIcon]}
+          techIcons={[vueIcon]}
         />
         <ProjectCard
           title='Marvel Search Engine'
@@ -94,7 +94,7 @@ const Projects = () => {
           btnText='View the source code'
           btnLink='https://github.com/jason-rivera/marvel-api'
           image='https://wallpapers.com/images/featured/bte9zcsa9pvyzpvk.jpg'
-          techIcons={[reactIcon, javaScriptIcon, htmlIcon, cssIcon]}
+          techIcons={[reactIcon]}
         />
         <ProjectCard
           title='Amiibo Finder'
