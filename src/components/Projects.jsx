@@ -63,7 +63,7 @@ const Projects = () => {
         <ProjectCard
           title='Glentel Inc.'
           subtitle='03/2023 - 05/2023'
-          description='Recreated the corporate website using Astro which increased load times by 50% and integrated Directus CMS for content management.'
+          description='Recreated the corporate website using Astro which decreased load times by 50%. I also integrated Directus CMS for content management.'
           btnText='View it live'
           btnLink='https://black-beach-023542a10.2.azurestaticapps.net/en/'
           image='https://newglentel.directus.app/assets/1d6d16ef-f001-4a91-93a4-dc0386676388'
@@ -81,7 +81,7 @@ const Projects = () => {
         <ProjectCard
           title='Hacker Detector'
           subtitle='05/2021 - 05/2022'
-          description='During my time at Secure Hive, I worked on the Hacker Detector project which is a web application that detects hackers and their IP addresses. I was responsible for the front-end development of the web application using Vue.js, HTML, CSS and JavaScript. I also created an admin panel that utilizes RESTful API to manage data in the database.'
+          description="Hacker Detector is a web application that detects hackers and their IP addresses. I was responsible for the front-end development of the web application using Vue.js. I also created an admin panel that utilizes the company's RESTful API to easily manage it's data."
           btnText='View it live'
           btnLink='https://hackerdetector.com/'
           image={hackerDetectorImage}
@@ -90,7 +90,7 @@ const Projects = () => {
         <ProjectCard
           title='Marvel Search Engine'
           subtitle='2021'
-          description='Built a search engine using the Marvel API that allows users to search for their favourite Marvel characters and comics. The search engine is built using React, HTML, CSS and JavaScript.'
+          description='Built a search engine using the Marvel API which allows users to search for their favourite Marvel characters and comics.'
           btnText='View the source code'
           btnLink='https://github.com/jason-rivera/marvel-api'
           image='https://wallpapers.com/images/featured/bte9zcsa9pvyzpvk.jpg'
@@ -99,7 +99,7 @@ const Projects = () => {
         <ProjectCard
           title='Amiibo Finder'
           subtitle='2021'
-          description='Built an Amiibo Finder web application using the Amiibo API that allows users to search for their favourite Amiibo characters. The web application is built using HTML, CSS and JavaScript.'
+          description='Built an Amiibo Finder web application using the Amiibo API. It allows users to search for their favourite Amiibo characters.'
           btnText='View the source code'
           btnLink='https://github.com/jason-rivera/amiibo-finder'
           image='https://sm.ign.com/ign_ap/news/f/first-two-waves-of-amiibo-detailed-with-release-da/first-two-waves-of-amiibo-detailed-with-release-da_mk5c.jpg'
